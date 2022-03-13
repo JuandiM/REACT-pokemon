@@ -1,0 +1,43 @@
+@import "../../global.scss";
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+
+  ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    li {
+      margin-top: 5px;
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+}
+
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  h2 {
+    margin-left: 10px;
+    color: white;
+  }
+}

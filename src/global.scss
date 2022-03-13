@@ -1,0 +1,21 @@
+$mainColor: rgb(43, 43, 43);
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  background: rgb(3, 3, 28);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 3, 28, 1) 23%,
+    rgba(8, 8, 87, 1) 82%,
+    rgba(9, 9, 112, 1) 100%
+  );
+  .link {
+    text-decoration: none;
+  }
+}

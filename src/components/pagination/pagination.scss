@@ -1,0 +1,33 @@
+@import "../../global.scss";
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px 20px 0px;
+  color: white;
+
+  .page {
+    font-weight: 200;
+  }
+
+  button {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .btn1 {
+    background-color: lightcoral;
+  }
+
+  .btn2 {
+    background-color: teal;
+  }
+}

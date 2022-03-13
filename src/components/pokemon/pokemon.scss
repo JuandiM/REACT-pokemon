@@ -1,0 +1,108 @@
+@import "../../global.scss";
+
+.link {
+  text-decoration: none;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    margin: 0.3rem;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    min-width: 200px;
+    min-height: 200px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.089);
+    color: $mainColor;
+    cursor: pointer;
+
+    &:hover {
+      border: 3px solid gold;
+      opacity: 50%;
+    }
+
+    .card-id {
+      margin-bottom: 8px;
+    }
+
+    .card-image {
+      width: 130px;
+      height: 130px;
+      margin-bottom: 8px;
+    }
+  }
+  .card-info {
+    span {
+      text-transform: capitalize;
+      font-weight: 400;
+    }
+    h3 {
+      font-weight: 200;
+      margin-bottom: 5px;
+    }
+    h4 {
+      font-weight: 200;
+    }
+  }
+
+  .rock {
+    background-color: rgb(148, 81, 81);
+  }
+  .ghost {
+    background-color: rgb(247, 247, 247);
+  }
+  .electric {
+    background-color: rgb(255, 255, 161);
+  }
+  .bug {
+    background-color: #f6d6a7;
+  }
+  .poison {
+    background-color: #e0a7f6;
+  }
+  .normal {
+    background-color: #f4f4f4;
+  }
+  .fairy {
+    background-color: rgba(255, 192, 203, 0.863);
+  }
+  .fire {
+    background-color: #fbe3df;
+  }
+  .grass {
+    background-color: #e2f9e1;
+  }
+  .water {
+    background-color: #e0f1fd;
+  }
+  .psychic {
+    background-color: #e092ff;
+  }
+  .fighting {
+    background-color: #f58f8f;
+  }
+  .ground {
+    background-color: rgb(185, 127, 127);
+  }
+  .ice {
+    background-color: rgb(139, 217, 248);
+  }
+  .dragon {
+    background-color: #b1ecc8;
+  }
+  .dark {
+    background-color: #eec697;
+  }
+  .steel {
+    background-color: #a797ad;
+  }
+}
